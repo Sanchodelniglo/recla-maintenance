@@ -1,13 +1,12 @@
 .container-in-developpement {
-  min-height: calc(100vh - 30px);
+  min-height: 99.6875vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(55,50,50);
-  color: #5DE48B;
+  background-color: #373232;
+  color: #5de48b;
 }
-
 .footer-admin {
   display: flex;
   align-items: center;
@@ -15,10 +14,9 @@
   height: 30px;
   width: 100%;
   background-color: grey;
-  position: sticky;
-  bottom: - 100vh;
+  position: fixed;
+  bottom: 0;
 }
-
 .footer-content {
   color: white;
   letter-spacing: 1px;
