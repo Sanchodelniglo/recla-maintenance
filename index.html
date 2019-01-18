@@ -4,21 +4,32 @@
     <meta charset='UTF-8'>
     <title>Mes Réclamations</title>
     <link href='style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-
-      <div class="container-in-developpement">
-        <h1>Site en construction</h1>
-        <iframe class="giphy-embed" frameborder="0" height="300" src="https://giphy.com/embed/tAeB6dptxnoli" width="300"></iframe>
-        <h3>Et on y met du coeur !!!</h3>
-      </div>
-
-      <div class='footer-admin'>
-        <div class='footer-content'>
-          Made with <img src="heart.svg" alt="love" style:"height: 15px; color: red;"> by des fainéants!!!
+    .navbar-reclam
+      .navbar-container
+        .logo
+          = link_to image_tag(image_path("logo.svg")), root_path
+    <div class="navbar-reclam">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#"><img src="logo.svg" alt="mes-reclamations"></a>
         </div>
       </div>
     </div>
+
+    <div class="container-in-developpement">
+      <h1>Site en construction</h1>
+      <iframe class="giphy-embed" frameborder="0" height="300" src="https://giphy.com/embed/tAeB6dptxnoli" width="300"></iframe>
+      <p>Et on y met du coeur !!!</p>
+    </div>
+
+    <div class='footer-admin'>
+      <div class='footer-content'>
+        <p>Made with <img src="heart.svg" alt="love" style="height: 15px; color: red;"> by des fainéants!!!</p>
+      </div>
+    </div>
+
   </body>
 </html>
