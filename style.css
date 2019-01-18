@@ -1,6 +1,4 @@
 html {
-  min-height: 98.95833vh;
-  width: 100vw;
   font-size: 10px;
   background: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("whiplash.jpg") bottom center;
   background-size: cover;
@@ -25,8 +23,8 @@ p {
 }
 
 .container-in-developpement {
-  height: 100vh;
-  width: 100vw;
+  min-height: 91.95833vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +49,7 @@ p {
 
 .navbar-reclam {
   height: 70px;
-  width: auto;
+  width: 100%;
   background-color: white;
   position: sticky;
   top: 0;
